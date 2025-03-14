@@ -1,59 +1,59 @@
 # Check-Kodam
 
-Check-Kodam adalah aplikasi web berbasis Python dan Flask yang menggunakan deteksi wajah untuk memberikan nama acak kepada pengguna. Aplikasi ini memanfaatkan OpenCV dan MediaPipe untuk mendeteksi wajah melalui kamera.
+Check-Kodam is a Python and Flask-based web application that uses face detection to assign a random name to the user. The app utilizes OpenCV and MediaPipe to detect faces through a camera.
 
-## Fitur
+## Features
 
-- **Deteksi Wajah**: Menggunakan kamera untuk mendeteksi wajah pengguna.
-- **Pemberian Nama Acak**: Setelah wajah terdeteksi, aplikasi akan memberikan nama acak dari daftar yang telah ditentukan.
+- **Face Detection**: Uses the camera to detect the user's face.
+- **Random Name Assignment**: Once a face is detected, the app assigns a random name from a predefined list.
 
-## Instalasi
+## Installation
 
-1. **Kloning repositori**:
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/Mahklvk/Check-Kodam.git
    ```
 
-2. **Navigasi ke direktori proyek**:
+2. **Navigate to the project directory**:
 
    ```bash
    cd Check-Kodam
    ```
 
-3. **Buat dan aktifkan virtual environment**:
+3. **Create and activate a virtual environment**:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Untuk Windows, gunakan 'venv\Scripts\activate'
+   source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
    ```
 
-4. **Instal dependensi**:
+4. **Install dependencies**:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Jalankan aplikasi**:
+5. **Run the application**:
 
    ```bash
    python app.py
    ```
 
-6. **Akses aplikasi**:
+6. **Access the application**:
 
-   Buka browser dan kunjungi `http://localhost:5000`.
+   Open your browser and visit `http://localhost:5000`.
 
-## Penggunaan
+## Usage
 
-- **Akses Kamera**: Saat mengakses aplikasi, pastikan memberikan izin akses kamera.
-- **Deteksi Wajah**: Aplikasi akan secara otomatis mendeteksi wajah Anda melalui kamera.
-- **Nama Acak**: Setelah wajah terdeteksi, aplikasi akan menampilkan nama acak yang diambil dari daftar yang telah ditentukan.
+- **Camera Access**: Make sure to grant camera access when using the application.
+- **Face Detection**: The app will automatically detect your face through the camera.
+- **Random Name Display**: Once a face is detected, the app will display a random name chosen from a predefined list.
 
-## Kontribusi
+## Contribution
 
-Kontribusi sangat diterima. Silakan fork repositori ini dan buat pull request untuk perbaikan atau penambahan fitur.
+Contributions are welcome! Feel free to fork this repository and submit a pull request for improvements or new features.
 
-## Lisensi
+## License
 
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
